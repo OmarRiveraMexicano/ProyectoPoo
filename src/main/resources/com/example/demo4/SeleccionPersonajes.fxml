@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.Controladores.SeleccionPersonajes">
+   <children>
+      <ImageView fitHeight="338.0" fitWidth="656.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="196.0" fitWidth="211.0" layoutX="202.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_2-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="255.0" layoutY="227.0" mnemonicParsing="false" text="Nueva Partida" />
+      <Button layoutX="266.0" layoutY="267.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="67.0" text="Salir" />
+      <ImageView fitHeight="150.0" fitWidth="131.0" layoutX="345.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="34.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="90.0" layoutX="476.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1.0" fitWidth="1.0" layoutX="438.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="168.0" layoutX="334.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_6.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
